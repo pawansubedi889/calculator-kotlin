@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -33,7 +34,6 @@
         android:autoSizeTextType="uniform"
         android:background="@color/background_color"
         android:gravity="center|end"
-        android:text="aaaa"
         android:textColor="@color/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,11 +49,10 @@
         android:autoSizeTextType="uniform"
         android:background="@color/background_color"
         android:gravity="center|end"
-        android:text="aaaaaaaa"
         android:textColor="@color/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout" />
 
     <GridLayout
         android:id="@+id/gridLayout"
